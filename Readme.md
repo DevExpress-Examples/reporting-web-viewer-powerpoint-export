@@ -1,9 +1,9 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/DVCustomExportOption/Default.aspx) (VB: [Default.aspx.vb](./VB/DVCustomExportOption/Default.aspx.vb))
+* [Default.aspx](./CS/DVCustomExportOption/Default.aspx) (VB: [Default.aspx](./VB/DVCustomExportOption/Default.aspx))
 * [Default.aspx.cs](./CS/DVCustomExportOption/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DVCustomExportOption/Default.aspx.vb))
-* [Global.asax](./CS/DVCustomExportOption/Global.asax) (VB: [Global.asax.vb](./VB/DVCustomExportOption/Global.asax.vb))
+* [Global.asax](./CS/DVCustomExportOption/Global.asax) (VB: [Global.asax](./VB/DVCustomExportOption/Global.asax))
 * [Global.asax.cs](./CS/DVCustomExportOption/Global.asax.cs) (VB: [Global.asax.vb](./VB/DVCustomExportOption/Global.asax.vb))
 * [Presentation.cs](./CS/DVCustomExportOption/Presentation.cs) (VB: [Presentation.vb](./VB/DVCustomExportOption/Presentation.vb))
 * [XtraReport1.cs](./CS/DVCustomExportOption/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/DVCustomExportOption/XtraReport1.vb))

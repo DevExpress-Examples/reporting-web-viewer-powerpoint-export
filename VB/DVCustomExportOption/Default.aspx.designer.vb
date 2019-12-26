@@ -29,14 +29,5 @@ Namespace DVCustomExportOption
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
 		Protected webDocumentViewer As Global.DevExpress.XtraReports.Web.ASPxWebDocumentViewer
-
-		''' <summary>
-		''' ASPxButton1 control.
-		''' </summary>
-		''' <remarks>
-		''' Auto-generated field.
-		''' To modify move field declaration from designer file to code-behind file.
-		''' </remarks>
-		Protected ASPxButton1 As Global.DevExpress.Web.ASPxButton
 	End Class
 End Namespace

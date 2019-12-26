@@ -1,10 +1,5 @@
 ﻿Imports System
-Imports System.Collections.Generic
-Imports System.Linq
-Imports System.Web
-Imports Microsoft.Office.Interop.PowerPoint
 Imports System.IO
-Imports System.Drawing.Printing
 Imports System.Drawing
 
 Namespace DVCustomExportOption

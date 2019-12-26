@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Microsoft.Office.Interop.PowerPoint;
 using System.IO;
-using System.Drawing.Printing;
 using System.Drawing;
 
 namespace DVCustomExportOption {

@@ -15,6 +15,5 @@
 
 <p><b>Important Note:</b> According to the  <a href="https://support.microsoft.com/en-us/help/257757/considerations-for-server-side-automation-of-office">Considerations for server-side Automation of Office</a> article the Power Point export functionality demonstrated in this example may be not completely supported by some web servers.</p>
 
-<br/>
-
-
+  <br/>
+<p>Starting with version 17.2, the example uses the <a href="https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogger">WebDocumentViewerOperationLogger</a> class for custom export to PowerPoint.</p>

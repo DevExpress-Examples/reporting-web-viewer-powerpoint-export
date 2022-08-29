@@ -1,20 +1,26 @@
-<!-- default file list -->
-*Files to look at*:
+# Reporting - Web Document Viewer - Add PowerPoint Export Format
 
-* [Default.aspx](./CS/DVCustomExportOption/Default.aspx) (VB: [Default.aspx](./VB/DVCustomExportOption/Default.aspx))
-* [Default.aspx.cs](./CS/DVCustomExportOption/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DVCustomExportOption/Default.aspx.vb))
-* [Global.asax](./CS/DVCustomExportOption/Global.asax) (VB: [Global.asax](./VB/DVCustomExportOption/Global.asax))
-* [Global.asax.cs](./CS/DVCustomExportOption/Global.asax.cs) (VB: [Global.asax.vb](./VB/DVCustomExportOption/Global.asax.vb))
-* [Presentation.cs](./CS/DVCustomExportOption/Presentation.cs) (VB: [Presentation.vb](./VB/DVCustomExportOption/Presentation.vb))
-* [XtraReport1.cs](./CS/DVCustomExportOption/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/DVCustomExportOption/XtraReport1.vb))
-<!-- default file list end -->
-# ASPxWebDocumentViewer - How to add PowerPoint export format to the toolbar
+In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
+
+The [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
+
+The application registers a **CustomOperationLogger** class as the [WebDocumentViewerOperationLogger](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogge) service. The **CustomOperationLogger** class overrides the [ExportDocumentStarting](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogger.N----F-y-----8-p) method to call the **ExportToPowerPoint** method when the user initializes export to PowerPoint.
 
 
-<p>This example demonstrates two techniques. The first technique demonstrates how to add a custom item to the "Export to" drop-down list of the <a href="https://documentation.devexpress.com/#XtraReports/CustomDocument17738">HTML5 Document Viewer</a> control. A custom item is added in the client-side <a href="https://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsWebScriptsASPxClientWebDocumentViewer_CustomizeMenuActionstopic">ASPxClientWebDocumentViewer.CustomizeMenuActions</a> event handler. The second technique demonstrates how to export a report to the PowerPoint (PPT) file format. Please review the <a href="https://community.devexpress.com/blogs/seth/archive/2011/02/14/exporting-reports-to-powerpoint.aspx">Exporting Reports to PowerPoint</a> article to get more information about this approach.<br></p><p>Note, it is necessary to have MS Office installed on the server machine, since the example has a reference to the <a href="https://blogs.msdn.microsoft.com/tolong/2007/12/02/missing-office-microsoft-office-core-reference/">Microsoft.Office.Core</a> v15 assembly.</p>
+![Web Document Viewer Export to Microsoft PowerPoint](Images/screenshot.png)
 
-<p><b>Important Note:</b> According to the  <a href="https://support.microsoft.com/en-us/help/257757/considerations-for-server-side-automation-of-office">Considerations for server-side Automation of Office</a> article the Power Point export functionality demonstrated in this example may be not completely supported by some web servers.</p>
+You have to install the [Office Developer Tools](https://visualstudio.microsoft.com/vs/features/office-tools/) for Visual Studio to build the project, and have a local Microsoft Office (PowerPoint) installation to run the project.
 
-<br/>
+## Files to Look At
+
+- [CustomOperationLogger.cs](CS/ReportingPowerPointExportSample/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/ReportingPowerPointExportSample/Services/CustomOperationLogger.vb))
+- [Presentation.cs](CS/ReportingPowerPointExportSample/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/ReportingPowerPointExportSample/Services/Presentation.vb))
+- [Global.asax.cs](CS/ReportingPowerPointExportSample/Global.asax.cs) ([Global.asax.vb](VB/ReportingPowerPointExportSample/Global.asax.vb))
+- [Viewer.aspx](CS/ReportingPowerPointExportSample/Viewer.aspx) ([Viewer.aspx](VB/ReportingPowerPointExportSample/Viewer.aspx))
+
+## Documentation
+
+- [Blog: Exporting Reports to PowerPoint](https://community.devexpress.com/blogs/seth/archive/2011/02/14/exporting-reports-to-powerpoint.aspx)
+
 
 

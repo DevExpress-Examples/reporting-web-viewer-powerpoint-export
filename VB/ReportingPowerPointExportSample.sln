@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ReportingPowerPointExportSample", "ReportingPowerPointExportSample\ReportingPowerPointExportSample.vbproj", "{E5F9430A-0D5C-4A68-B58F-E81DB64F247B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F9430A-0D5C-4A68-B58F-E81DB64F247B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F9430A-0D5C-4A68-B58F-E81DB64F247B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F9430A-0D5C-4A68-B58F-E81DB64F247B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F9430A-0D5C-4A68-B58F-E81DB64F247B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A2436C-1002-433B-8848-4556E2085AEF}
+	EndGlobalSection
+EndGlobal

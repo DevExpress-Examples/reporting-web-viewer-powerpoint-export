@@ -202,7 +202,7 @@ Public Class TestReport
 			Me.tableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
 			Me.tableCell4.Weight = 0.34163161057692309R
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.tableCell4.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.tableCell4_BeforePrint);
+'ORIGINAL LINE: this.tableCell4.BeforePrint += new DevExpress.XtraReports.UI.BeforePrintEventHandler(this.tableCell4_BeforePrint);
 			' 
 			' tableCell5
 			' 
@@ -346,7 +346,7 @@ Public Class TestReport
 
 	#End Region
 
-	Private Sub tableCell4_BeforePrint(ByVal sender As Object, ByVal e As System.Drawing.Printing.PrintEventArgs) Handles tableCell4.BeforePrint
+	Private Sub tableCell4_BeforePrint(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles tableCell4.BeforePrint
 		TryCast(sender, XRTableCell).Text &= " Customized"
 	End Sub
 

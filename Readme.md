@@ -26,6 +26,3 @@ You have to install the [Office Developer Tools](https://visualstudio.microsoft.
 ## Documentation
 
 - [Blog: Exporting Reports to PowerPoint](https://community.devexpress.com/blogs/seth/archive/2011/02/14/exporting-reports-to-powerpoint.aspx)
-
-
-

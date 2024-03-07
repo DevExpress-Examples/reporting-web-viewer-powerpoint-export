@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T457196)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Reporting - Web Document Viewer - Add PowerPoint Export Format
+# Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint Export Format
 
 In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
 
@@ -15,7 +15,7 @@ The application registers a **CustomOperationLogger** class as the [WebDocumentV
 
 You have to install the [Office Developer Tools](https://visualstudio.microsoft.com/vs/features/office-tools/) for Visual Studio to build the project, and have a local Microsoft Office (PowerPoint) installation to run the project.
 
-## Files to Look At
+## Files to Review
 
 - [CustomOperationLogger.cs](CS/ReportingPowerPointExportSample/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/ReportingPowerPointExportSample/Services/CustomOperationLogger.vb))
 - [Presentation.cs](CS/ReportingPowerPointExportSample/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/ReportingPowerPointExportSample/Services/Presentation.vb))

@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint Export Format
+# Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint as Custom Export Format
 
-In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
+In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented. The resulting document is exported as **Power Point** slides of the .png format.
 
 The [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
 

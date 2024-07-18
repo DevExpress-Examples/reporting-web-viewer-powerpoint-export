@@ -6,7 +6,9 @@
 <!-- default badges end -->
 # Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint Export Format
 
-In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
+In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.  
+
+>Note: The resulting document is exported by rasterizing each page to an image / slide (no native powerpoint inner elements). The usage of MS Office Automation requires a license.
 
 The [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
 

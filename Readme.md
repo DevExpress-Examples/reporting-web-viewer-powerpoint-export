@@ -7,7 +7,7 @@
 
 In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.  
 
->Note: The resulting document is exported by rasterizing each page to an image / slide (no native powerpoint inner elements). The usage of MS Office Automation requires a license.
+>Note: The resulting document is exported by rasterizing each page to an image / slide (no native PowerPoint inner elements). In this example uses the `Microsoft.Office.Interop.PowerPoint` library, that requires a local installation of PowerPoint. But you can use the similar solution with any other library that supports generating Power Point documents.
 
 The [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
 

@@ -5,7 +5,8 @@
 <!-- default badges end -->
 # Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint Export Format
 
-In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.  
+In this example, a **Power Point** item is added to the list of available export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
+
 
 >Note: The resulting document is exported by rasterizing each page to an image / slide (no native PowerPoint inner elements). This example uses the `Microsoft.Office.Interop.PowerPoint` library, which requires a local installation of PowerPoint. You can also use the similar solution with any other library that supports generating Power Point documents.
 

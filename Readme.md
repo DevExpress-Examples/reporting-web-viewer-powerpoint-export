@@ -1,12 +1,16 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128597920/23.2.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T457196)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 # Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint Export Format
 
-In this example a **Power Point** item is added to the list of availailable export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
+In this example, a **Power Point** item is added to the list of available export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
+
+
+>Note: The resulting document is exported by rasterizing each page to an image / slide (no native PowerPoint inner elements). This example uses the `Microsoft.Office.Interop.PowerPoint` library, which requires a local installation of PowerPoint. You can also implement a similar solution with any other library that supports PowerPoint document generation.
+
+
 
 The [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
 

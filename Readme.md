@@ -4,18 +4,15 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Reporting for ASP.NET Web Forms - Web Document Viewer - Add PowerPoint Export Format
+# Reporting for ASP.NET Web Forms - Add PowerPoint Export Format in Web Document Viewer
 
-In this example, a **Power Point** item is added to the list of available export formats in the Web Document Viewer, and the custom **ExportToPowerPoint** method is implemented.
-
+The example adds a **Power Point** item to the list of available export formats in the Web Document Viewer and implements the custom **ExportToPowerPoint** method.
 
 >Note: The resulting document is exported by rasterizing each page to an image / slide (no native PowerPoint inner elements). This example uses the `Microsoft.Office.Interop.PowerPoint` library, which requires a local installation of PowerPoint. You can also implement a similar solution with any other library that supports PowerPoint document generation.
 
+The [`CustomizeMenuActions`](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
 
-
-The [CustomizeMenuActions](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_customizemenuactions) event is handled to add a custom menu item. 
-
-The application registers a **CustomOperationLogger** class as the [WebDocumentViewerOperationLogger](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogge) service. The **CustomOperationLogger** class overrides the [ExportDocumentStarting](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogger.N----F-y-----8-p) method to call the **ExportToPowerPoint** method when the user initializes export to PowerPoint.
+The application registers a `CustomOperationLogger` class as the [WebDocumentViewerOperationLogger](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogge) service. The `CustomOperationLogger` class overrides the [ExportDocumentStarting](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogger.N----F-y-----8-p) method to call the `ExportToPowerPoint`method when the user initializes export to Power Point.
 
 
 ![Web Document Viewer Export to Microsoft PowerPoint](Images/screenshot.png)
@@ -29,9 +26,6 @@ You have to install the [Office Developer Tools](https://visualstudio.microsoft.
 - [Global.asax.cs](CS/ReportingPowerPointExportSample/Global.asax.cs) ([Global.asax.vb](VB/ReportingPowerPointExportSample/Global.asax.vb))
 - [Viewer.aspx](CS/ReportingPowerPointExportSample/Viewer.aspx) ([Viewer.aspx](VB/ReportingPowerPointExportSample/Viewer.aspx))
 
-## Documentation
-
-- [Blog: Exporting Reports to PowerPoint](https://community.devexpress.com/blogs/seth/archive/2011/02/14/exporting-reports-to-powerpoint.aspx)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 

@@ -21,10 +21,10 @@ You have to install the [Office Developer Tools](https://visualstudio.microsoft.
 
 ## Files to Review
 
-- [CustomOperationLogger.cs](CS/ReportingPowerPointExportSample/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/ReportingPowerPointExportSample/Services/CustomOperationLogger.vb))
-- [Presentation.cs](CS/ReportingPowerPointExportSample/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/ReportingPowerPointExportSample/Services/Presentation.vb))
-- [Global.asax.cs](CS/ReportingPowerPointExportSample/Global.asax.cs) ([Global.asax.vb](VB/ReportingPowerPointExportSample/Global.asax.vb))
-- [Viewer.aspx](CS/ReportingPowerPointExportSample/Viewer.aspx) ([Viewer.aspx](VB/ReportingPowerPointExportSample/Viewer.aspx))
+- [CustomOperationLogger.cs](CS/PowerPointExport/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/PowerPointExport/Services/CustomOperationLogger.vb))
+- [Presentation.cs](CS/PowerPointExport/Services/CustomOperationLogger.cs) ([CustomOperationLogger.vb](VB/PowerPointExport/Services/Presentation.vb))
+- [Global.asax.cs](CS/PowerPointExport/Global.asax.cs) ([Global.asax.vb](VB/PowerPointExport/Global.asax.vb))
+- [Viewer.aspx](CS/PowerPointExport/Viewer.aspx) ([Viewer.aspx](VB/PowerPointExport/Viewer.aspx))
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
